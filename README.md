@@ -35,7 +35,7 @@ Chestry is a minimalist, elegant Chess application built for those who appreciat
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/imadulislam598/chestry.git
+   git clone https://github.com/imad-ul-islam598/chestry.git
    cd chestry
    ```
 
@@ -65,4 +65,5 @@ Chestry is a minimalist, elegant Chess application built for those who appreciat
 This project is open source. Feel free to use and adapt it for your own purposes.
 
 ---
-Created with ❤️ by imadulislam598
+
+**Developed & Maintained by [Imad ul Islam](https://github.com/imad-ul-islam598)**
