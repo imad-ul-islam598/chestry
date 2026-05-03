@@ -1,0 +1,114 @@
+.hero {
+  position: relative;
+  min-height: 80vh;
+  background-color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+.backgroundPieces {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.piece {
+  position: absolute;
+  opacity: 0.1;
+  pointer-events: none;
+  filter: grayscale(100%) brightness(1000%);
+}
+
+.pawn {
+  width: 12rem;
+  top: 1rem;
+  left: 2.5rem;
+}
+
+.king {
+  width: 16rem;
+  bottom: 0;
+  right: 3rem;
+}
+
+.queen {
+  width: 10rem;
+  top: 2.5rem;
+  right: 25%;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--color-text-primary);
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 32rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  line-height: 1.5;
+}
+
+.ctaButton {
+  background-color: transparent;
+  color: var(--color-accent);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0;
+  padding-bottom: 0.25rem;
+  border-radius: 0;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.ctaButton:hover {
+  border-bottom-color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+  .piece {
+    width: 200px;
+  }
+  .king {
+    width: 250px;
+    right: -10%;
+  }
+  .pawn {
+    left: -10%;
+  }
+  .queen {
+    width: 220px;
+    bottom: -5%;
+  }
+}

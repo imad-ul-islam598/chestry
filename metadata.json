@@ -1,0 +1,6 @@
+{
+  "name": "Chestry",
+  "description": "A sophisticated Chess application featuring real-time gameplay rules, special moves (Castling, En Passant, Promotion), and a minimalist aesthetic with relaxing background music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
