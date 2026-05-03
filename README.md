@@ -66,4 +66,4 @@ This project is open source. Feel free to use and adapt it for your own purposes
 
 ---
 
-**Developed & Maintained by [Imad ul Islam](https://github.com/imad-ul-islam598)**
+**Developed & Maintained by [Imad Ul Islam](https://github.com/imad-ul-islam598)**
